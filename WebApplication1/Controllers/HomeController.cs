@@ -21,11 +21,7 @@ namespace WebApplication1.Controllers
         public IActionResult Index()
         {
             return View();
-            TestKeys keys = new TestKeys();
-
-            keys._guid = "";
-            keys.Id = 1;
-            keys.test = "Error";
+            
         }
 
         public IActionResult Privacy()
